@@ -5,6 +5,7 @@
 ![alt text](classdg.png)
 ## MVC Architecture :
 ![alt text](Archive.png)
+![alt text](MVC3.png)
 ## Cấu trúc source
 ![alt text](cautruc.png)
 ## Quản lý học phần
