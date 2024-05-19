@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>NavigationBar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div th:fragment="nav">
+        <nav class="navbar navbar-expand-sm bg-info navbar-light">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="/user">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light" th:href="@{/student/user/show/233234}">Information</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light" th:href="@{/registration/enroll/233234}">Course</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light" th:href="@{/registration/show/233234}">Registration Course</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
